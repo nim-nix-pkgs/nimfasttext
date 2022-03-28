@@ -11,7 +11,6 @@
   inputs.src-nimfastText-master.ref   = "refs/heads/master";
   inputs.src-nimfastText-master.owner = "genotrance";
   inputs.src-nimfastText-master.repo  = "nimfastText";
-  inputs.src-nimfastText-master.dir   = "";
   inputs.src-nimfastText-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
